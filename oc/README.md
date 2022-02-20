@@ -52,6 +52,16 @@ oc describe statefulset worker-0
 oc logs [POD-NAME] 
 ```
 
+## Scaling
+Scaling ReplicaSet and StatefulSet
+```shell
+# scaling replicaSet
+oc scale rs/[REPLICA-SET-NAME] --replicas=[NUMBER]
+# scaling statefulSet
+oc scale sts [STATEFUL-SET-NAME] --replicas=[NUMBER]
+```
+**Note**: you can use full name for resources' type also. `rs -> replicaset`
+
 
 ## edit quota
 ```shell
