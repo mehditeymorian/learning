@@ -1,2 +1,2 @@
 # Learning
-Everything I learn through my journey
+Learn CLI tools with examples.
