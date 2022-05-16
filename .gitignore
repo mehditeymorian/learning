@@ -1,0 +1,5 @@
+# jet-brains
+.idea/
+
+# text files
+*.txt
