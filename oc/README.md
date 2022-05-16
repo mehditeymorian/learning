@@ -1,7 +1,7 @@
 # OpenShift CLI
 
 <p align="center">
-    <img src="../assets/oc-logo.png" />
+    <img src="../assets/oc-logo.png" width="700" />
 </p>
 
 ## Namespaces (Projects)

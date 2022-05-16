@@ -1,7 +1,7 @@
 # Curl
 
 <p align="center">
-  <img src="../assets/curl-logo.png" />
+  <img src="../assets/curl-logo.png" width="700" />
 </p>
 
 **Note**: We will use [JsonPlaceholder](https://jsonplaceholder.typicode.com/) as a server to send requests.

@@ -1,7 +1,7 @@
 # Node.js Package Manager CLI
 
 <p align="center">
-    <img src="../assets/npm-logo.webp" />
+    <img src="../assets/npm-logo.webp" width="700" />
 </p>
 
 ## What is _package.json_?
