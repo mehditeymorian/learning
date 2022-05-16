@@ -1,10 +1,14 @@
 # Curl
 
+<p align="center">
+  <img src="../assets/curl-logo.png" />
+</p>
+
 **Note**: We will use [JsonPlaceholder](https://jsonplaceholder.typicode.com/) as a server to send requests.
 It is free and easy to use.
 
 
-### Simple command
+## Simple command
 Request
 ```shell
 curl https://jsonplaceholder.typicode.com/posts/3
@@ -20,7 +24,7 @@ Response
 }
 ```
 
-### Response & Headers
+## Response & Headers
 Request
 ```shell
 curl -i https://jsonplaceholder.typicode.com/posts/3
@@ -62,7 +66,7 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 }
 ```
 
-### Only Headers
+## Only Headers
 Request
 ```shell
 curl -I https://jsonplaceholder.typicode.com/posts/3
@@ -98,7 +102,7 @@ cf-ray: 6dcc31fb2eb77750-LHR
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 ```
 
-### Save Output to file
+## Save Output to file
 Request
 ```shell
 curl -o result.txt https://jsonplaceholder.typicode.com/posts
@@ -113,7 +117,7 @@ Response
 ```
 there should be a file named `result.txt` with downloaded posts in it.
 
-### Direct Download
+## Direct Download
 This command is the same as previous one except it doesn't require a name.
 
 Request
@@ -130,7 +134,7 @@ Response
 
 **Options**: you can use `--limit-rate X` for example `--limit-rate 1000B` to limit the downloading rate.
 
-### POST Request
+## POST Request
 Request
 ```shell
 curl --data "title=Hello&body=World&field=value" https://jsonplaceholder.typicode.com/posts
@@ -147,7 +151,7 @@ Response
 }
 ```
 
-### PUT Request
+## PUT Request
 Request
 ```shell
 curl -X PUT --data "title=Hello" https://jsonplaceholder.typicode.com/posts/3
@@ -162,7 +166,7 @@ Response
 }
 ```
 
-### DELETE Request
+## DELETE Request
 Request
 ```shell
 curl -X DELETE https://jsonplaceholder.typicode.com/posts/3
@@ -174,13 +178,13 @@ Response
 {}
 ```
 
-### Authentication
+## Authentication
 Request
 ```shell
 curl -u username:password https://ADDRESS
 ```
 
-### Redirect
+## Redirect
 Request
 ```shell
 curl -L google.com
