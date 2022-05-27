@@ -1,7 +1,11 @@
 # OpenShift CLI
 
+<p align="center">
+    <img src="../assets/oc-logo.png" width="700" />
+</p>
+
 ## Namespaces (Projects)
-shows list of namespaces that you are part of. 
+Shows list of namespaces that you are part of. 
 ```shell
 oc project list 
 ```
@@ -40,7 +44,7 @@ oc get ingress
 **Note**: You can specify a name after the resource type to get a specific resource.
 
 ## Describe a resource
-give you general information about the resource
+Give you general information about the resource
 ```shell
 oc describe [RESOURCE-TYPE] [RESOURCE-NAME]
 # for example
