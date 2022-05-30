@@ -49,3 +49,13 @@ It does not include test code for vendored packages.
 ```shell
 go mod vendor
 ```
+
+## Build Module
+compile packages and dependencies.  
+`Note`:If the arguments to build are a list of .go files from a single directory,
+build treats them as a list of source files specifying a single package.
+### Options
+- `-race`: enable data race detection.
+```shell
+go build [packages]
+```
