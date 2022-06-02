@@ -59,3 +59,15 @@ build treats them as a list of source files specifying a single package.
 ```shell
 go build [packages]
 ```
+
+## Run
+Run compiles and runs the named main Go package.
+Typically, the package is specified as a list of .go source files from a single
+directory, but it may also be an import path, file system path, or pattern    
+matching a single known package, as in 'go run .' or 'go run my/cmd'.
+```shell
+# run single file
+go run main.go
+# run main package along with its dependencies
+go run main.go dependency-1.go dependency-1.go ...
+```
